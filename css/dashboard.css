@@ -1,0 +1,560 @@
+/* WP RESETS */
+#wpcontent {
+    padding-left: 0px !important;
+}
+
+div:focus,li:focus,button:focus,ul:focus {
+    outline: 0 !important;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* UTILITIES */
+
+.nopadding-left {
+    padding-left: 0px !important;
+}
+
+.nomargin-right {
+    margin-right: 0px !important;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* GENERIC */
+
+#mp-stoman-container {
+    margin: 0px !important;
+    display: block;
+    font-size: 12px;
+    font-family: Tahoma;
+    border-bottom: 1px #e7e7e7 solid;
+    outline: none !important;
+    background-color: #f1f3f6;
+    min-height: 100%;
+    position: relative;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+    #mp-stoman-container a {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+#mp-stoman-contentpane {
+    min-height: 250px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 17px 10px;
+}
+
+.mp-stoman-controltitle {
+    border-bottom: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.mp-stoman-controltitle-title {
+    font-size: 180%;
+    float: left;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+
+.mp-stoman-text-grayed {
+    color: #a39d9b;
+}
+
+label {
+    cursor: default !important;
+    font-size: 12px;
+}
+
+.label {
+    font-weight: normal !important;
+}
+
+.mp-stoman-helptext {
+    font-size: 11px;
+}
+
+.mp-stoman-ajax-loader {
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 10005;
+    display:none;
+    top:0px;
+}
+
+    .mp-stoman-ajax-loader img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto; /* presto! */
+        z-index: 10008;
+        /*width: 64px !important;
+        height: 64px !important;*/
+    }
+
+.mp-stoman-ajax-loader-show {
+    display: block;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* NAVBAR */
+
+.mp-stoman-logo-image
+{
+    width: 142px;
+    position: relative;
+    top: -12px;
+}
+#mp-stoman-nvarbar {
+    border-radius: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    background-color: #588c00;
+    color: #ffffff;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    background: -webkit-linear-gradient(#015c94, #597da3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#015c94, #597da3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#015c94, #597da3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#015c94, #597da3); /* Standard syntax */
+}
+
+    #mp-stoman-nvarbar a, #mp-stoman-nvarbar a:active, #mp-stoman-nvarbar a:visited, #mp-stoman-nvarbar a:hover {
+        color: #ffffff;
+        padding: 5px 10px;
+        margin-right: 8px;
+        cursor: pointer;
+    }
+
+    #mp-stoman-nvarbar .active > a {
+        background: #71a719;
+        cursor: pointer;
+        border-radius: 4px;
+
+    }
+
+#mp-stoman-nvarbar-brand {
+    cursor: default;
+    height: inherit !important;
+    padding: 4px 30px 0px 15px !important;
+}
+
+#mp-stoman-nvarbar li > a {
+    font-size: 110%;
+    text-transform: uppercase;
+}
+
+    #mp-stoman-nvarbar li > a > i {
+        margin-right: 5px;
+    }
+
+#mp-stoman-nvarbar .open > a {
+    background-color: #9fca99;
+    border-radius: 6px;
+}
+
+#mp-stoman-nvarbar .dropdown-menu {
+    background-color: #61a657;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+    #mp-stoman-nvarbar .dropdown-menu li {
+        margin-bottom: 0px !important;
+    }
+
+        #mp-stoman-nvarbar .dropdown-menu li > a > img {
+            width: 16px;
+            height: 16px;
+            margin-right: 2px;
+            margin-top: -2px;
+        }
+
+        #mp-stoman-nvarbar .dropdown-menu li > a,
+        #mp-stoman-nvarbar .dropdown-menu li > a:active,
+        #mp-stoman-nvarbar .dropdown-menu li > a:visited,
+        #mp-stoman-nvarbar .dropdown-menu li > a:hover {
+            color: #ffffff;
+            font-size: 100%;
+            background-color: #61a657 !important;
+        }
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* SUB TABS */
+
+.mp-stoman-subnavbar {
+    border-bottom: 1px solid #e7e7e7 !important;
+    min-height: 38px;
+}
+
+    .mp-stoman-subnavbar > li > a {
+        color: #000 !important;
+        line-height: normal !important;
+        border: 1px solid #e7e7e7 !important;
+        border-bottom: none !important;
+        border-radius: 4px 4px 0 0;
+        padding: 5px 10px;
+        background-color: #f9f9f9;
+    }
+.mp-stoman-subnavbar > li
+{
+    cursor:pointer;
+}
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* BUTTONS */
+.btn-labeled {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.btn-label {
+    display: inline-block;
+    padding: 4px 8px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 2px 0 0 2px;
+    font-size: 12px !important;
+    margin-left: -12px;
+    margin-right: 9px;
+}
+
+
+
+.btn-primary-small
+{
+    padding: 5px 10px !important;
+    font-size: 12px !important;
+    line-height: normal !important;
+    border-radius: 3px !important;
+}
+
+.btn-table {
+    font-size: 11px !important;
+}
+
+.mp-stoman-btnlink, a.mp-stoman-btnlink, a.mp-stoman-btnlink:focus, a.mp-stoman-btnlink:visited, a.mp-stoman-btnlink:active {
+    font-size: 12px;
+    color: #5f9284;
+    border: 1px solid #588c00;
+    padding: 2px 5px;
+    width: auto !important;
+    float: left;
+    border-radius: 4px;
+    background-color:#588c00;
+    color: #fff;
+}
+
+    .mp-stoman-btnlink:hover, a.mp-stoman-btnlink:hover {
+        background-color: #649f00;
+        cursor: pointer;
+        color: #fff;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        text-decoration:none !important;
+    }
+
+.mp-stoman-btnlink-spaceright {
+    margin-right: 8px;
+}
+.mp-stoman-btnlink-spacebottom {
+    margin-bottom: 8px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* PANELS */
+.mp-stoman-panels-panel {
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #e1e6ef;
+    margin-bottom: 15px;
+}
+
+.mp-stoman-panels-panel-header {
+    border-bottom: 1px solid #e4e5e7;
+    padding: 8px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.mp-stoman-panels-panel-title {
+    font-size: 145%;
+    font-weight: 500;
+    float: left;
+    margin-top: 3px;
+}
+
+.mp-stoman-panels-panel-subtitle {
+    margin-bottom: 5px;
+}
+
+.mp-stoman-panels-panel-buttonsheader {
+    float: right;
+    margin-right: 5px;
+}
+
+.mp-stoman-panels-panel-body {
+    padding: 0px 15px 15px 15px;
+}
+
+.mp-stoman-panels-sidepanelseparator {
+    border-top: 1px solid #eeeff0;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 14px;
+}
+
+.mp-stoman-panels-spacetop {
+    margin-top: 15px;
+}
+
+.mp-stoman-panels-spacebottom {
+    margin-bottom: 15px;
+}
+
+.mp-stoman-panels-spacetopbig {
+    margin-top: 40px;
+}
+
+.mp-stoman-panels-navbartabbedconent {
+    padding: 0px 10px;
+}
+
+.mp-stoman-panels-tabpanel {
+    padding: 15px 0px;
+    border-top: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.mp-stoman-panels-greysubpanel {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.mp-stoman-panels-greysubpanel-icon
+{
+    font-size: 20px;
+    color: #aaaaaa;
+    margin-right: 5px;
+}
+
+.mp-stoman-panels-greysubpanel-iconspantext
+{
+    top: -4px;
+    position: relative;
+}
+
+
+.mp-stoman-panels-greysubpanel-bigicon
+{
+    font-size: 40px;
+    color: #aaaaaa;
+    margin-right: 5px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* FOOTER */
+#mp-stoman-footerpane
+{
+    background-color: #dddddd;
+    color: #606060;
+    font-size: 10px;
+    padding:5px 15px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------- */
+/* INPUT CONTROLS */
+.mp-stoman-panels-input {
+    box-shadow: none !important;
+    border: 1px solid #dddddd !important;
+    height: 28px !important;
+    padding: 4px 8px !important;
+    outline: none !important;
+}
+
+.mp-stoman-panels-input-fullwidth {
+    width: 100%;
+}
+
+.mp-stoman-panels-input-checkbox, .mp-stoman-panels-input-checkbox:focus {
+    width: auto !important;
+    height: 18px !important;
+    box-shadow: none !important;
+    border: 1px solid #dddddd !important;
+    outline: none !important;
+}
+
+.mp-stoman-panels-input-radio {
+    box-shadow: none !important;
+}
+
+.mp-stoman-panels-input-radiolabel {
+    display: inline-block;
+    margin-top: 4px;
+    font-weight: normal !important;
+    margin-bottom: 0px !important;
+}
+
+.mp-stoman .input-group-addon {
+    border-top: 1px solid #dddddd !important;
+    border-right: 1px solid #dddddd !important;
+    border-bottom: 1px solid #dddddd !important;
+}
+
+.mp-stoman-panels-input-small-select {
+    box-shadow: none !important;
+    border: 1px solid #dddddd !important;
+    height: 20px !important;
+    padding: 0px 2px !important;
+}
+
+.mp-stoman-panels-input-haserror {
+    border-color: #d9534f !important;
+    background-color: #feebde !important;
+}
+
+.mp-stoman-asterisk {
+    color: red;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------- */
+/* TABLES */
+
+.mp-stoman .table td {
+    padding: 4px !important;
+}
+
+.mp-stoman .table-striped > tbody > tr:nth-child(odd) > td, .mp-stoman .table-striped > tbody > tr:nth-child(odd) > th {
+    background-color: #fbfbfb;
+}
+
+.dataTables_paginate {
+    font-size: 11px;
+}
+
+.mp-stoman .pagination {
+    margin: 0px !important;
+}
+
+.mp-stoman .pagination > .active > a, .mp-stoman .pagination > .active > a:hover, .mp-stoman .pagination > .active > a:focus
+{
+    background-color:#588c00;
+    border-color:#588c00;
+}
+
+.mp-stoman .pagination > li > a, .mp-stoman .pagination > li > a:hover, .mp-stoman .pagination > li > a:focus
+{
+    color:#5f9284;
+}
+
+.mp-stoman .table .label {
+    font-size: 11px !important;
+}
+
+.mp-stoman .table > tbody .spanMarginTop {
+    padding-top: 12px !important;
+    padding-bottom: 0px !important;
+}
+
+.mp-stoman .table > tbody .switcherySmallAdjust {
+    padding-top: 7px !important;
+    padding-bottom: 0px !important;
+}
+
+.mp-stoman .table-striped > tbody > tr:nth-child(odd) > td, .mp-stoman .table-striped > tbody > tr:nth-child(odd) > th 
+{
+    background-color: #fbfbfb !important;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+
+/* NOTIFY --------------------------------------------------------------------------- */
+
+.alert-minimalistgreen {
+    background-color: #588c00;
+    border-color: #d6e9c6;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+}
+
+
+/* NOTIFY --------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------- */
+/* SPECIFIC */
+
+.mp-stoman-tablestock-qtytxtinput
+{
+    max-width:80px;
+}
+.mp-stoman-tablestock-qtytxtinput-disabled
+{
+    border: 1px solid #e6e6e6 !important;
+    background-color: #f1f1f1 !important;
+}
+/* ---------------------------------------------------------------------------------- */
+
